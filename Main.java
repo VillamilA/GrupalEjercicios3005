@@ -1,10 +1,11 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        CtaBancaria.CtaAhorro cta1 = new CtaBancaria.CtaAhorro("Edison Morales",1727267674,200,"Chillogallo",1000);
-
-        cta1.depositar();
+        float suma;
+        Calculos.sumatoria sum = new Calculos.sumatoria();
+        sum.setValor1(5);
+        sum.setValor2(2);
+        sum.setValor3(3.5f);
+        System.out.println("la suma es: "+sum.suma());
 
     }
 }
